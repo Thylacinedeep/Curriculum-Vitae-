@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plantilla de currículum vitae profesional y lista para imprimir.">
+  <title>Currículum Vitae | Miguel Ángel Alvarado Cabrera</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="Script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">CV<span>.</span></a>
+    <button class="print-button" id="print-cv" type="button">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path>
+        <path d="M18 11h.01"></path>
+      </svg>
+      Imprimir / Guardar PDF
+    </button>
+  </header>
+
+  <main class="resume" id="inicio">
+    <aside class="sidebar">
+      <div class="identity">
+        <div class="avatar" aria-label="Espacio para tu foto de perfil">NA</div>
+        <p class="eyebrow">Currículum vitae</p>
+        <h1>Miguel Ángel<br>Alvarado Cabrera</h1>
+        <p class="job-title">Profesión o puesto deseado</p>
+      </div>
+
+      <section class="sidebar-section">
+        <h2>Contacto</h2>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon" aria-hidden="true">✉</span>
+            <a href="mailto:tu.correo@ejemplo.com">tu.correo@ejemplo.com</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">⌕</span>
+            <a href="tel:+525512345678">+52 55 19879833</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">⌖</span>
+            <span>Ciudad, País</span>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">in</span>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">linkedin.com/in/tu-perfil</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">↗</span>
+            <a href="https://tusitio.com" target="_blank" rel="noreferrer">tusitio.com</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="sidebar-section">
+        <h2>Habilidades</h2>
+        <ul class="tag-list">
+          <li>Gestión de proyectos</li>
+          <li>Comunicación</li>
+          <li>Resolución de problemas</li>
+          <li>Trabajo en equipo</li>
+          <li>Microsoft Office</li>
+        </ul>
+      </section>
+
+      <section class="sidebar-section">
+        <h2>Idiomas</h2>
+        <div class="language">
+          <div class="language-label"><span>Español</span><span>Nativo</span></div>
+          <div class="language-track"><span style="width: 100%"></span></div>
+        </div>
+        <div class="language">
+          <div class="language-label"><span>Inglés</span><span>Intermedio</span></div>
+          <div class="language-track"><span style="width: 65%"></span></div>
+        </div>
+      </section>
+    </aside>
+
+    <div class="main-content">
+      <section class="content-section profile-section">
+        <p class="eyebrow">Perfil</p>
+        <h2>Sobre mí</h2>
+        <p class="profile-copy">
+          Profesional con experiencia en [área o industria]. Me especializo en
+          [fortaleza principal] y en crear soluciones que generan resultados.
+          Busco aportar mi experiencia, iniciativa y capacidad de colaboración
+          a un equipo orientado al crecimiento.
+        </p>
+      </section>
+
+      <section class="content-section">
+        <p class="eyebrow">Trayectoria</p>
+        <h2>Experiencia laboral</h2>
+        <article class="timeline-item">
+          <div class="timeline-heading">
+            <div>
+              <h3>Puesto o cargo</h3>
+              <p class="company">Nombre de la empresa · Ciudad</p>
+            </div>
+            <p class="date">2022 — Actualidad</p>
+          </div>
+          <ul class="detail-list">
+            <li>Describe una responsabilidad o logro relevante con resultados concretos.</li>
+            <li>Incluye cifras cuando sea posible: por ejemplo, mejora del 20% en un indicador.</li>
+            <li>Menciona herramientas, procesos o equipos con los que trabajaste.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-heading">
+            <div>
+              <h3>Puesto anterior</h3>
+              <p class="company">Empresa anterior · Ciudad</p>
+            </div>
+            <p class="date">2019 — 2022</p>
+          </div>
+          <ul class="detail-list">
+            <li>Resume tus principales funciones y el impacto de tu trabajo.</li>
+            <li>Destaca un logro que demuestre tus habilidades para el puesto.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="content-section">
+        <p class="eyebrow">Formación</p>
+        <h2>Educación</h2>
+        <article class="timeline-item education-item">
+          <div class="timeline-heading">
+            <div>
+              <h3>Nombre del título o programa</h3>
+              <p class="company">Institución educativa · Ciudad</p>
+            </div>
+            <p class="date">2015 — 2019</p>
+          </div>
+          <p class="education-note">Especialidad, reconocimiento o información adicional relevante.</p>
+        </article>
+      </section>
+
+      <section class="content-section">
+        <p class="eyebrow">Desarrollo</p>
+        <h2>Cursos y certificaciones</h2>
+        <article class="certification">
+          <div>
+            <h3>Nombre de la certificación</h3>
+            <p class="company">Institución o plataforma</p>
+          </div>
+          <p class="date">2023</p>
+        </article>
+        <article class="certification">
+          <div>
+            <h3>Nombre del curso</h3>
+            <p class="company">Institución o plataforma</p>
+          </div>
+          <p class="date">2022</p>
+        </article>
+      </section>
+
+      <footer class="resume-footer">
+        <span>Nombre Apellido</span>
+        <span>Ciudad, País</span>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
